@@ -1,0 +1,186 @@
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+
+  
+  
+
+  
+  
+  
+
+  
+
+  <script type="text/javascript" src="/js/lib/dummy.js"></script><style type="text/css"></style>
+
+  
+
+  
+
+  
+
+  
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+  
+
+  
+
+  <style type="text/css">
+    td {
+  background: green;
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+.active {
+  background: red;
+}
+
+textarea {
+  width: 208px;
+  height:100px
+}
+
+  </style>
+
+  <title> by pranavcbalan</title>
+
+  
+    
+
+
+
+
+<script type="text/javascript">//<![CDATA[
+window.onload=function(){
+$('td').click(function() {
+  $(this).toggleClass('active');
+  $('#res').text($('tr').map(function() {
+    return 'B' + $('td', this).map(function() {
+      return $(this).hasClass('active') ? '1' : '0';
+    }).get().join('');
+  }).get().join());
+});
+
+}//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-1.12.3.js" integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc=" crossorigin="anonymous"></script>
+<table>
+  <tbody><tr>
+    <td></td>
+    <td></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+  </tr>
+  <tr>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+  </tr>
+  <tr>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class=""></td>
+    <td class="active"></td>
+    <td class="active"></td>
+  </tr>
+  <tr>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+  </tr>
+  <tr>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class=""></td>
+    <td class="active"></td>
+    <td class="active"></td>
+  </tr>
+  <tr>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class=""></td>
+    <td class="active"></td>
+    <td class="active"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class=""></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td class="active"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody></table>
+
+<textarea id="res">B00111100,B01111110,B11111111,B11111111,B11011011,B11111111,B11011011,B11000011,B01111110,B00111100</textarea>
+
+  
+
+
+
+
+</body></html>
